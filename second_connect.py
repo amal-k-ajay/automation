@@ -6,7 +6,7 @@ def get_window_id(command):
     return result.decode('utf-8').strip()
 
 # Set the home directory
-home_directory = "/home/amal/Desktop/workspace/"
+home_directory = os.path.dirname(os.getcwd())
 
 # move to sysrepo folder
 sysrepo_folder = os.path.join(home_directory, "sysrepo")

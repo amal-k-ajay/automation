@@ -2,7 +2,7 @@ import subprocess
 import os
 
 # Set the home directory
-home_directory = "/home/amal/Desktop/workspace/"
+home_directory = os.path.dirname(os.getcwd())
 
 # Define the commands for sysrepo
 sysrepo_commands = [
