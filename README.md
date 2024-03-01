@@ -1,5 +1,5 @@
 # automation_scripts
-IEEE/IEC60802 Demonstrator
+IEEE/IEC60802 Demonstrator: This contains Shell and Python scripts adhering to the IEEE/IEC 60802 standard to be implemented over a NETCONF server(IA Station) and client(TDME).
 
 Prerequisites:
 * Install gnome terminal
